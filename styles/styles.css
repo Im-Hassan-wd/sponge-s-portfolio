@@ -209,8 +209,8 @@ p.fade {
   color: #f55278;
 }
 
-.name-sea {
-  color: #cf7535;
+.name-book {
+  color: #5368df;
 }
 
 .name-game {
@@ -653,6 +653,7 @@ footer .container {
 .other-projects img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
 }
 
 .project-details {
@@ -661,19 +662,19 @@ footer .container {
 }
 
 .details-3 {
-  background: #137298;
+  background: rgb(32, 32, 32);
 }
 
 .details-2 {
-  background: #7d20a6;
+  background: rgb(32, 32, 32);
 }
 
 .details-4 {
-  background: #31bb5c;
+  background: rgb(32, 32, 32);
 }
 
 .details-1 {
-  background: #fc3439;
+  background: rgb(32, 32, 32);
 }
 
 p.other {
