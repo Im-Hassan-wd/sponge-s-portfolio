@@ -1,12 +1,8 @@
 <h1 align="center">Hassan Taiwo</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
   <h3>
-    <a href="https://electronphoto.netlify.app/">
+    <a href="https://netsponge.netlify.app/">
       Demo
     </a>
   </h3>
