@@ -206,19 +206,23 @@ p.fade {
 }
 /* ----------------------- */
 .name-music {
-  color: #f55278;
+  color: #ca9199;
 }
 
 .name-book {
-  color: #5368df;
+  color: #fa5757;
 }
 
-.name-game {
-  color: #e847ee;
+.name-huffle {
+  color: #5959c5;
 }
 
 .name-developer {
   color: #4787ee;
+}
+
+.name-electron {
+  color: #9e1693;
 }
 /* ------------------- */
 
