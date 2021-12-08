@@ -29,9 +29,34 @@ form.addEventListener('submit', e => {
 
 window.addEventListener("scroll", (e) => {
     slideLeft(e);
+    slideRight(e);
 });
 
 //functions
 function slideLeft(e){
-    console.log(window.pageYOffset)
+    if(window.pageYOffset < 400){
+        topSlider.forEach(slide => {
+            slide.style.transform = "translateX(-200px)";
+            slide.style.transition = "10s ease-in-out";
+        });
+    } else {
+        topSlider.forEach(slide => {
+            slide.style.transform = "translateX(0px)";
+            slide.style.transition = "10s ease-in-out";
+        });
+    }
+}
+
+function slideRight(e){
+    if(window.pageYOffset < 400){
+        bottomSlider.forEach(slide => {
+            slide.style.transform = "translateX(200px)";
+            slide.style.transition = "10s ease-in-out";
+        });
+    } else {
+        bottomSlider.forEach(slide => {
+            slide.style.transform = "translateX(0px)";
+            slide.style.transition = "10s ease-in-out";
+        });
+    }
 }

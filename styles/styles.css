@@ -130,16 +130,6 @@ nav .container {
   object-fit: cover;
 }
 
-.top-slide {
-  transform: translateX(500px);
-  transition: all 2s ease-in-out;
-}
-
-.bottom-slide {
-  transform: translateX(-500px);
-  transition: all 2s ease-in-out;
-}
-
 /* animation & interaction */
 @keyframes tolts {
   from {
