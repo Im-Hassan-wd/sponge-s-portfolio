@@ -34,29 +34,29 @@ window.addEventListener("scroll", (e) => {
 
 //functions
 function slideLeft(e){
-    if(window.pageYOffset < 400){
+    if(window.pageYOffset > 150){
         topSlider.forEach(slide => {
             slide.style.transform = "translateX(-200px)";
-            slide.style.transition = "10s ease-in-out";
+            slide.style.transition = "5s linear";
         });
-    } else {
+    } else if(window.pageYOffset > 1 && window.pageYOffset < 100) {
         topSlider.forEach(slide => {
             slide.style.transform = "translateX(0px)";
-            slide.style.transition = "10s ease-in-out";
+            slide.style.transition = "5s linear";
         });
     }
 }
 
 function slideRight(e){
-    if(window.pageYOffset < 400){
+    if(window.pageYOffset > 150){
         bottomSlider.forEach(slide => {
             slide.style.transform = "translateX(200px)";
-            slide.style.transition = "10s ease-in-out";
+            slide.style.transition = "5s ease-in-out";
         });
-    } else {
+    } else if(window.pageYOffset > 1 && window.pageYOffset < 100) {
         bottomSlider.forEach(slide => {
             slide.style.transform = "translateX(0px)";
-            slide.style.transition = "10s ease-in-out";
+            slide.style.transition = "5s ease-in-out";
         });
     }
 }
