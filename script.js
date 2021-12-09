@@ -53,7 +53,7 @@ function slideRight(e){
             slide.style.transform = "translateX(200px)";
             slide.style.transition = "5s ease-in-out";
         });
-    } else if(window.pageYOffset > 1 && window.pageYOffset < 100) {
+    } else if(window.pageYOffset < 150) {
         bottomSlider.forEach(slide => {
             slide.style.transform = "translateX(0px)";
             slide.style.transition = "5s ease-in-out";
