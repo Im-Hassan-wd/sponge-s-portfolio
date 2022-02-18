@@ -51,6 +51,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [gallery](https://https://netsponge.netlify.app/)
+- Website [Portfolio](https://https://netsponge.netlify.app/)
 - GitHub [Im-Hassan-wd](https://github.com/Im-Hassan-wd)
 - Twitter [Hassan Weird](https://twitter.com/hassan_weird)
